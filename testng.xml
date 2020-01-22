@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/admin1/Desktop/OnlineBookStore/Twitter">
+        <classes>
+            <class name="com.twitter.tests.DragAndDropTest">
+                <methods>
+                    <include name="DragnDrop"/>
+                </methods>
+            </class>
+            <class name="com.twitter.tests.FacebookRegisterTest">
+                <methods>
+                    <include name="facebookRegisterTest"/>
+                </methods>
+            </class>
+            <class name="com.twitter.tests.FileUploadPopUpHandling">
+                <methods>
+                    <include name="testName"/>
+                </methods>
+            </class>
+            <class name="com.twitter.tests.FileUploadpopupTest">
+                <methods>
+                    <include name="testName"/>
+                </methods>
+            </class>
+            <class name="com.twitter.tests.LoginPageTest">
+                <methods>
+                    <include name="loginTwitterTest"/>
+                </methods>
+            </class>
+            <class name="com.twitter.tests.MultipleWindowHandleTests">
+                <methods>
+                    <include name="testMultipleWindows"/>
+                </methods>
+            </class>
+            <class name="com.twitter.tests.PopupHandleTest">
+                <methods>
+                    <include name="javascriptPopuphandleTest"/>
+                </methods>
+            </class>
+            <class name="com.twitter.tests.TwitterImageDownloadTest">
+                <methods>
+                    <include name="imageDownloadTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

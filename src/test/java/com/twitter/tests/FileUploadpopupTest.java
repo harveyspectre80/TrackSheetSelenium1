@@ -12,11 +12,7 @@ public class FileUploadpopupTest extends BaseClass {
     @Test
     public void testName() throws InterruptedException{
         Thread.sleep(3000);
-        Alert alert = driver.switchTo().alert();
-        alert.accept();
-        // alert.dismiss(); // is for cancel button
-        Thread.sleep(3000);
-        driver.findElement(By.xpath("//input[@id='fileupload']")).sendKeys("C:\\Users\\user\\Desktop\\getandpost.png");
-        Thread.sleep(5000);
+        driver.findElement(By.xpath("//input[@id='fileupload']")).sendKeys("/home/admin1/Desktop/OnlineBookStore/Twitter/src/main/resources/ImageMon Jan 20 10:30:59 IST 2020__actiTIMELoginPage.png");
+        Thread.sleep(8000);
     }
 }

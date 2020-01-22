@@ -22,7 +22,7 @@ public class BaseClass  {
         if (browser.equalsIgnoreCase("mozilla")) {
             System.setProperty(MOZILLA_KEY,MOZILLA_VALUE);
             driver = new FirefoxDriver();
-            String url = library.getProperty(CONFIG_PATH, "URL4");
+            String url = library.getProperty(CONFIG_PATH, "URL1");
             driver.manage().window().maximize();
             driver.manage().deleteAllCookies();
             driver.get(url);
@@ -30,7 +30,7 @@ public class BaseClass  {
        System.setProperty(CHROME_KEY,CHROME_VALUE);
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        String url = library.getProperty(CONFIG_PATH, "URL4");
+        String url = library.getProperty(CONFIG_PATH, "URL1");
         driver.get(url);
         String implicitTimeOut = library.getProperty(CONFIG_PATH,"ImplicitTimeOut");
         int timeoutPeriod = Integer.parseInt(implicitTimeOut);

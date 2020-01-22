@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.twitter.tests.OtpHandleTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-22T10:54:55" hostname="admin1-desktop" time="37.878">
+  <properties/>
+  <testcase name="forOTPNumber" classname="com.twitter.tests.OtpHandleTests" time="37.878"/>
+  <system-out><![CDATA[791548 is your Amazon OTP. OTP is confidential. For security reasons, DO NOT share this OTP with anyone.
+791548                                                                                                  
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 4038
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 22, 2020 4:24:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
