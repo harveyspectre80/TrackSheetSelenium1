@@ -6,25 +6,24 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twitter/controller/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twitter/controller/BaseClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/twitter/tests/FileUploadpopupTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/twitter/tests/FileUploadpopupTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twitter.tests.FileUploadpopupTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/twitter/tests/FileUploadPopUpHandling.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/twitter/tests/FileUploadPopUpHandling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/twitter/tests/OtpHandleTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/twitter/tests/OtpHandleTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/twitter/tests/PDFTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/twitter/tests/PDFTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twitter.tests.OtpHandleTests.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twitter.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twitter.tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.twitter.tests.FileUploadpopupTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.twitter.tests.OtpHandleTests.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/controller/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/controller/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/twitter/tests/FileUploadpopupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/twitter/tests/FileUploadpopupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/twitter/tests/DragAndDropTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/twitter/tests/DragAndDropTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/twitter/tests/FileUploadPopUpHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/twitter/tests/FileUploadPopUpHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/twitter/tests/OtpHandleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/twitter/tests/OtpHandleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/twitter/tests/PDFTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/twitter/tests/PDFTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,13 +84,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.OtpHandleTests.forOTPNumber">
-    <configuration name="FileUploadpopupTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CrossBrowserTest.crossBrowserTest">
+    <configuration name="CrossBrowserTest.crossBrowserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.twitter.tests.FileUploadpopupTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.twitter.tests.CrossBrowserTest.crossBrowserTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -106,12 +105,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FileUploadpopupTest.testName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FileUploadpopupTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.twitter.tests.FileUploadpopupTest.testName&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.twitter.tests.FileUploadpopupTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -190,19 +189,19 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.FileUploadpopupTest" />
-      <item itemvalue="Gradle.FileUploadpopupTest.testName" />
       <item itemvalue="TestNG./home/admin1/Desktop/OnlineBookStore/Twitter/dragAnddrop.xml" />
       <item itemvalue="TestNG./home/admin1/Desktop/OnlineBookStore/Twitter/dragAnddrop.xml (1)" />
       <item itemvalue="TestNG./home/admin1/Desktop/OnlineBookStore/Twitter/src/test/java/com/twitter/tests/dragAnddrop.xml" />
       <item itemvalue="Gradle.OtpHandleTests.forOTPNumber" />
+      <item itemvalue="Gradle.CrossBrowserTest.crossBrowserTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CrossBrowserTest.crossBrowserTest" />
         <item itemvalue="Gradle.OtpHandleTests.forOTPNumber" />
         <item itemvalue="TestNG./home/admin1/Desktop/OnlineBookStore/Twitter/src/test/java/com/twitter/tests/dragAnddrop.xml" />
         <item itemvalue="TestNG./home/admin1/Desktop/OnlineBookStore/Twitter/dragAnddrop.xml (1)" />
         <item itemvalue="Gradle.FileUploadpopupTest" />
-        <item itemvalue="Gradle.FileUploadpopupTest.testName" />
       </list>
     </recent_temporary>
   </component>
@@ -260,6 +259,21 @@
           <line>12</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/twitter/tests/OtpHandleTests.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/twitter/tests/OtpHandleTests.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/twitter/tests/CrossBrowserTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/twitter/tests/LoginPageTest.java</url>
           <line>17</line>
@@ -277,12 +291,20 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/twitter/tests/FileUploadPopUpHandling.java</url>
-          <line>19</line>
-          <properties class="com.twitter.tests.FileUploadPopUpHandling" method="testName">
+          <url>file://$PROJECT_DIR$/src/test/java/com/twitter/tests/OtpHandleTests.java</url>
+          <line>27</line>
+          <properties class="com.twitter.tests.OtpHandleTests" method="forOTPNumber">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/twitter/tests/CrossBrowserTest.java</url>
+          <line>12</line>
+          <properties class="com.twitter.tests.CrossBrowserTest" method="crossBrowserTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

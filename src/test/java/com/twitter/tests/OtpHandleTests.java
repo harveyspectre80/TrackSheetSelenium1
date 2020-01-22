@@ -13,8 +13,8 @@ import java.util.stream.StreamSupport;
 
 public class OtpHandleTests {
 
-        private static final String ACOUNT_SID = "AC0da5e5b22cefb3d106bd8ada0cf6275e";
-        private static final String AUT_TOKEN = "dd895cfde90989ccee929be02c96cea6";
+        private static final String ACOUNT_SID = "ACae78145d496524e13dd1c21778db5477";
+        private static final String AUT_TOKEN = "bb586f1cb58e116d21692d846933b947";
         WebDriver driver;
 
         @BeforeMethod
@@ -27,19 +27,20 @@ public class OtpHandleTests {
         @Test
         public void forOTPNumber() throws InterruptedException {
             driver.get("https://www.amazon.in/");
-            driver.findElement(By.id("nav-link-accountList")).click();
             Thread.sleep(2000);
-            driver.findElement(By.xpath("//a[@class='nav-a' and @rel='nofollow']")).click();
+            driver.findElement(By.xpath("//div[@class='nav-signin-tooltip-footer']//a[@class='nav-a'][contains(text(),'Start here.')]")).click();
             Thread.sleep(2000);
+//                    driver.findElement(By.xpath("//a[@class='nav-a' and @rel='nofollow']")).click();
+//            Thread.sleep(2000);
             driver.findElement(By.id("ap_customer_name")).sendKeys("hemilturakhia@gmail.com");
             Thread.sleep(3000);
             driver.findElement(By.className("a-dropdown-prompt")).click();
             Thread.sleep(3000);
-            driver.findElement(By.id("auth-country-picker_90")).click();
+            driver.findElement(By.xpath("//a[@data-value='{\"stringVal\":\"US\"}']")).click();
             Thread.sleep(3000);
-            driver.findElement(By.id("ap_phone_number")).sendKeys("4016220124");
+            driver.findElement(By.id("ap_phone_number")).sendKeys("9082645538");
             Thread.sleep(2000);
-            driver.findElement(By.id("ap_password")).sendKeys("bridgelabz1234");
+            driver.findElement(By.id("ap_password")).sendKeys("Itachi@123");
             Thread.sleep(2000);
             driver.findElement(By.id("continue")).click();
             Thread.sleep(2000);
@@ -49,13 +50,12 @@ public class OtpHandleTests {
             String OTPNumber = smsBody.replaceAll("[^-? 0-9]", " ");
             System.out.println(OTPNumber);
             driver.findElement(By.id("auth-pv-enter-code")).sendKeys(OTPNumber);
-            // driver.findElement(By.id("continue")).click();
-        }
+            }
 
         public static String getMessage() {
             return getMessages()
                     .filter(m -> m.getDirection().compareTo(Message.Direction.INBOUND) == 0)
-                    .filter(m -> m.getTo().equals("+14016220124"))
+                    .filter(m -> m.getTo().equals("+19082645538"))
                     .map(Message::getBody)
                     .findFirst()
                     .orElseThrow(IllegalStateException::new);

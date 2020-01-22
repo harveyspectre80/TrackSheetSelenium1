@@ -21,7 +21,7 @@ public class FileUploadPopUpHandling extends BaseClass {
         driver.get("http://www.indeed.co.in");
 
         driver.findElement(By.className("icl-TextPromo-linkText")).click();
-        driver.findElement(By.xpath("//*[@id=\"container\"]/div/div/div/div/div/div[2]/div/div[1]/div/div[1]/button")).click();
+        driver.findElement(By.xpath("//*[@id=\"container\"]/div/div/div/div/div/div[2]/div/div[1]/div/div[1]/button ")).click();
 
         //Store the location of the file in clipboard
         //Clipboard

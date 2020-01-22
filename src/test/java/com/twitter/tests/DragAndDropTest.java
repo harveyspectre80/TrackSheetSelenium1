@@ -55,7 +55,7 @@ public class DragAndDropTest extends BaseClass {
 
         Thread.sleep(2500);
         //500 drag and drop credit side.
-        act.dragAndDrop(From4, To4).build().perform();
+                    act.dragAndDrop(From4, To4).build().perform();
 
         //Verifying the Perfect! message.
         if (driver.findElement(By.xpath("//a[contains(text(),'Perfect')]")).isDisplayed()) {
